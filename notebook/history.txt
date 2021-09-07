@@ -1,0 +1,29 @@
+History
+-------------------------
+ MODEL: BERT
+ TEST ACCURACY: 0.82563
+ USE_META = False
+ TRAIN_BASE = True
+ EPOCHS = 2
+ BATCH_SIZE = 16
+ EPOCHS = 2
+ ADD_DENSE = False
+ ADD_DROPOUT = True
+ DROPOUT = .2
+
+---------------------------
+ MODEL: BERT
+ TEST ACCURACY: 0.8250
+ (Modify)
+ USE_META = True
+ ADD_DENSE = True
+ DENSE_DIM = 64
+
+---------------------------
+ MODEL: BERT
+ TEST ACCURACY: 
+ (Modify)
+ USE_META = False
+ EPOCHS = 3
+ ADD_DENSE = True
+ DENSE_DIM = 64
